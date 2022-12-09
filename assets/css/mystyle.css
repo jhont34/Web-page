@@ -1,0 +1,138 @@
+/* ESTILOS DE BASE */
+header{
+	background-color: green;
+}
+
+#primero{
+	background-color: yellow;
+	color: red;
+}
+
+#segundo{
+	background-color: pink;
+	color: green;
+}
+
+figure{
+	background-color: #58FAF4;
+}
+
+#tercero{
+	background-color: #80FF00;
+}
+
+footer{
+	background-color: black; 
+	color:white;
+	display: block;
+	float: left;
+	width: 100%;
+}
+
+section{
+	display:inline-block;
+	background-color: yellow;	
+}
+article{
+	display:inline-block;
+	background-color: #81BEF7;
+}
+aside{
+	display:inline-block;
+	background-color: #ACFA58;
+}
+
+main{
+	background-color: pink;
+}
+
+#total{
+	display:inline-block;
+  	width: 19%;
+  	background-color: powderblue;
+	margin: 0.5%;
+	float: left;
+}
+
+#presentacion{
+	display:inline-block;
+	width: 79%;
+	background-color: #70b578;
+	margin: 0.5%;
+	float: left;
+}
+
+.gallery {
+  background-color: brown;
+  margin: 1%;
+  border: 1px solid #ccc;
+ float: left;
+  width: 31%;
+}
+
+.gallery:hover {
+  border: 1px solid #777;
+}
+
+.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+.gallery1 {
+  background-color: Orange;
+  margin: 1%;
+  border: 1px solid #ccc;
+  float: left;
+  width: 97%;
+}
+
+.gallery1:hover {
+  border: 1px solid #777;
+}
+
+.gallery1 img {
+  width: 100%;
+  height: auto;
+}
+
+.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+h1{
+  text-align: center;
+}
+
+.filas{
+	display: block;
+	background-color: #70b578; 
+}
+
+/* ESTILOS MEDIA QUERY */
+@media only screen and (max-width: 400px){
+
+#total{
+	display:block;
+	width: 100%;
+
+}
+
+#presentacion{
+	display:block;
+	width: 100%;
+}
+
+.gallery {
+  background-color: DarkOrchid;
+  width: 97%;
+}
+
+.gallery1 {
+  background-color: Khaki;
+  width: 97%;
+}
+
+}
+
